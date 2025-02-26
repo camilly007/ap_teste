@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(65deg, purple, rgb(12, 112, 54));
+}
+.tela_conf{
+    background-color: rgba(1000, 1000, 1000, 0.6);
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+input{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+input:hover{
+    background-color: rgb(141, 224, 162);
+}
+h1{
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(252, 247, 255);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(163, 223, 198)
+}
